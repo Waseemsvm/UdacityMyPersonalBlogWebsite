@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Blog Website</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <!-- #region modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Subscribe</h2>
+        </div>
+        <div class="modal-body">
+          <label for="myInput">Enter your email id : </label>
+          <input
+            id="myInput"
+            class="myInput"
+            type="text"
+            placeholder="abc@gmail.com"
+          />
+          <button class="subBtn" onclick="subscribed()">Subscribe</button>
+        </div>
+        <div class="modal-footer">
+          <!-- <h3>Modal Footer</h3> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- #endregion modal -->
+
+    <div class="container">
+      <header class="header">
+        <a href="#" class="subscribeLink" onclick="subscribeClicked()"
+          >Subscribe</a
+        >
+        <a href="#">
+          <h1 class="blogTitle">My Blog</h1>
+        </a>
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </header>
+      <main class="posts">
+        <div class="post">
+          <div>
+            <p class="postHeader">Lorem Ipsum</p>
+            <h2>Example Blog Post</h2>
+            <span class="postDate">Nov 12</span>
+            <p class="cardContent">
+              This card represents an example blog post.
+            </p>
+          </div>
+          <a href="./views/BlogPost.html" class="postFooter"
+            >Continue reading</a
+          >
+        </div>
+        <div class="post">
+          <div>
+            <p class="postHeader postHeaderColor">Lorem Ipsum</p>
+            <h2>Example Blog Post</h2>
+            <span class="postDate">Nov 12</span>
+            <p class="cardContent">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+          </div>
+          <a href="./views/BlogPost.html" class="postFooter"
+            >Continue reading</a
+          >
+        </div>
+        <div class="post">
+          <div>
+            <p class="postHeader">Lorem Ipsum</p>
+            <h2>Example Blog Post</h2>
+            <span class="postDate">Nov 12</span>
+            <p class="cardContent">
+              This card represents an example blog post.
+            </p>
+          </div>
+          <a href="./views/BlogPost.html" class="postFooter"
+            >Continue reading</a
+          >
+        </div>
+        <div class="post">
+          <div>
+            <p class="postHeader postHeaderColor">Lorem Ipsum</p>
+            <h2>Example Blog Post</h2>
+            <span class="postDate">Nov 12</span>
+            <p class="cardContent">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+          </div>
+          <a href="./views/BlogPost.html" class="postFooter"
+            >Continue reading</a
+          >
+        </div>
+        <div class="post">
+          <div>
+            <p class="postHeader">Lorem Ipsum</p>
+            <h2>Example Blog Post</h2>
+            <span class="postDate">Nov 12</span>
+            <p class="cardContent">
+              This card represents an example blog post.
+            </p>
+          </div>
+          <a href="./views/BlogPost.html" class="postFooter"
+            >Continue reading</a
+          >
+        </div>
+        <div class="post">
+          <div>
+            <p class="postHeader postHeaderColor">Lorem Ipsum</p>
+            <h2>Example Blog Post</h2>
+            <span class="postDate">Nov 12</span>
+            <p class="cardContent">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+          </div>
+          <a href="./views/BlogPost.html" class="postFooter"
+            >Continue reading</a
+          >
+        </div>
+      </main>
+      <footer class="footer">
+        <p>
+          &copy; Lorem Ipsum is simply dummy text of the
+          <a href="#" class="footerLink">printing and typesetting</a>
+          industry
+        </p>
+        <!-- <a href="#" class="footerLink">See Design System</a> -->
+      </footer>
+    </div>
+    <script src="./scripts/app.js"></script>
+    <script src="./external/all.min.js"></script>
+  </body>
+</html>

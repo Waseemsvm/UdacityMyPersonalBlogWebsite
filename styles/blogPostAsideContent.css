@@ -1,0 +1,32 @@
+.side-content {
+  margin: 25px 0px;
+}
+
+.side-content-1 {
+  background-color: rgb(243, 243, 243);
+  padding: 25px;
+}
+
+.side-content-1 h3,
+.side-content-2 h3,
+.side-content-3 h3 {
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+
+.side-content-2,
+.side-content-3 {
+  margin-top: 35px;
+  margin-left: 25px;
+}
+
+.side-content-2 ul,
+.side-content-3 ul {
+  list-style-type: none;
+}
+.side-content-2 ul li,
+.side-content-3 ul li {
+  margin-bottom: 5px;
+}

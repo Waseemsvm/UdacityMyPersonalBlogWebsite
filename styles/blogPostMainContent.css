@@ -1,0 +1,95 @@
+.blogPage {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .blogPage {
+    grid-template-columns: 1fr;
+  }
+  .blogContent .placeholderImage > img {
+    width: 100%;
+  }
+}
+
+.blogPage .blogContent {
+  margin: 0 50px;
+}
+
+.blogContent .date {
+  color: rgb(90, 88, 88);
+}
+
+.blogContent .placeholderImage {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.blogContent article,
+.blogContent p.overview {
+  margin: 25px 0px;
+}
+
+.blogPage .article2 {
+  border: 1px solid rgb(192, 192, 192);
+  padding-bottom: 20px;
+}
+.blogContent h2 {
+  font-size: 30px;
+}
+.blogContent h3 {
+  font-size: 25px;
+  padding: 15px 0px;
+}
+.blogContent h3 + p {
+  margin: 25px 0;
+}
+
+.blogContent .code {
+  font-size: 18px;
+}
+
+.separator {
+  border: 0.5px solid rgb(237, 237, 237);
+}
+
+.mainHeading {
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.list1,
+.list2 {
+  margin-left: 35px;
+}
+
+.code-line {
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.pagination {
+  display: flex;
+  margin-left: 30px;
+}
+
+.pagination button {
+  margin: 30px 10px;
+  padding: 15px;
+  width: fit-content;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: rgb(83, 83, 255);
+  border: 2px solid rgb(83, 83, 255);
+  font-weight: bolder;
+}
+
+.pagination button:hover {
+  background-color: rgb(83, 83, 255);
+  color: #fff;
+  transition-property: all;
+  transition-duration: 0.5s;
+}

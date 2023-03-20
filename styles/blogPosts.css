@@ -1,0 +1,65 @@
+.posts {
+  padding: 30px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .posts {
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  border: 10px solid rgb(235, 235, 235);
+  height: 250px;
+  border-radius: 5px;
+}
+
+.post:hover {
+  border: 5px solid rgb(235, 235, 235);
+  transition: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.post p.postHeader {
+  font-size: 22px;
+  color: #1a21e8;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.post .postHeader,
+.postHeaderColor {
+  color: rgb(12, 124, 12);
+}
+
+.post h2 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.post .postDate {
+  color: #1a21e8;
+  font-family: sans-serif;
+}
+
+.post .cardContent {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.post .postFooter {
+  font-size: 20px;
+  color: #1a21e8;
+}
